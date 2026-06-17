@@ -6,7 +6,7 @@ public class Calculator {
     static ArrayList<Driver> allDrivers = new ArrayList<>();
     static ArrayList<Constructor> allConstructors = new ArrayList<>();
     
-    static int budget = 122603000; //MONEY TO SPEND!!!
+    static int budget = 118800000; //MONEY TO SPEND!!!
 
     //User defined settings for predefined drivers and constructor
     static ArrayList<Driver> setDrivers = new ArrayList<>();
@@ -185,38 +185,42 @@ public class Calculator {
     }
     
     public static void fillArrays(){
-        allDrivers.add(new Driver("Norris", 28200000, 158));
-        allDrivers.add(new Driver("Piastri", 24700000, 157));
-        allDrivers.add(new Driver("Leclerc", 27100000, 144));
-        allDrivers.add(new Driver("Russell", 25800000, 156));
-        allDrivers.add(new Driver("Verstappen", 29400000, 161));
-        allDrivers.add(new Driver("Hamilton", 21600000, 135));
-        allDrivers.add(new Driver("Alonso", 13400000, 116));
-        allDrivers.add(new Driver("Albon", 15700000, 129));
-        allDrivers.add(new Driver("Hulkenberg", 8900000, 113));
-        allDrivers.add(new Driver("Lawson", 13300000, 111));
-        allDrivers.add(new Driver("Antonelli", 19300000, 128));
-        allDrivers.add(new Driver("Hadjar", 14600000, 121));
-        allDrivers.add(new Driver("Bortoleto", 12500000, 107));
-        allDrivers.add(new Driver("Gasly", 6000000, 102));
+        allDrivers.add(new Driver("Norris", 22700000, 125));
+        allDrivers.add(new Driver("Piastri", 25300000, 130));
+        allDrivers.add(new Driver("Leclerc", 23900000, 153));
+        allDrivers.add(new Driver("Russell", 24700000, 150));
+        allDrivers.add(new Driver("Verstappen", 24200000, 139));
+        allDrivers.add(new Driver("Hamilton", 27000000, 165));
+        allDrivers.add(new Driver("Alonso", 14700000, 90));
+        allDrivers.add(new Driver("Albon", 11900000, 94));
+        allDrivers.add(new Driver("Hulkenberg", 12600000, 99));
+        allDrivers.add(new Driver("Lawson", 20000000, 140));
+        allDrivers.add(new Driver("Antonelli", 29900000, 179));
+        allDrivers.add(new Driver("Hadjar", 19700000, 126));
+        allDrivers.add(new Driver("Bortoleto", 12500000, 127));
+        allDrivers.add(new Driver("Gasly", 19700000, 134));
         allDrivers.add(new Driver("Bearman", 18800000, 120));
-        allDrivers.add(new Driver("Ocon", 11000000, 112));
-        allDrivers.add(new Driver("Stroll", 10800000, 110));
-        allDrivers.add(new Driver("Sainz", 12100000, 112));
-        allDrivers.add(new Driver("Tsunoda", 15300000, 114));
-        allDrivers.add(new Driver("Colapinto", 6300000, 90));
+        allDrivers.add(new Driver("Ocon", 14400000, 128));
+        allDrivers.add(new Driver("Stroll", 8400000, 80));
+        allDrivers.add(new Driver("Sainz", 16000000, 122));
+        allDrivers.add(new Driver("Lindblad", 10500000, 121));
+        allDrivers.add(new Driver("Colapinto", 12300000, 137));
+        allDrivers.add(new Driver("Perez", 8400000, 97));
+        allDrivers.add(new Driver("Bottas", 4800000, 83));
 
 
-        allConstructors.add(new Constructor("McLaren", 27900000, 165));
-        allConstructors.add(new Constructor("Ferrari", 24700000, 142));
-        allConstructors.add(new Constructor("Mercedes", 24200000, 142));
-        allConstructors.add(new Constructor("Red Bull", 23300000, 136));
-        allConstructors.add(new Constructor("Racing Bulls", 14600000, 113));
-        allConstructors.add(new Constructor("Aston Martin", 13500000, 105));
-        allConstructors.add(new Constructor("Kick Sauber", 12400000, 100));
-        allConstructors.add(new Constructor("Williams", 13300000, 113));
-        allConstructors.add(new Constructor("Haas", 14300000, 106));
-        allConstructors.add(new Constructor("Alpine", 6000000, 92));
+        allConstructors.add(new Constructor("McLaren", 22600000, 121));
+        allConstructors.add(new Constructor("Ferrari", 26200000, 155));
+        allConstructors.add(new Constructor("Mercedes", 28700000, 165));
+        allConstructors.add(new Constructor("Red Bull", 21900000, 122));
+        allConstructors.add(new Constructor("Racing Bulls", 16500000, 113));
+        allConstructors.add(new Constructor("Aston Martin", 8800000, 76));
+        allConstructors.add(new Constructor("Audi", 12400000, 98));
+        allConstructors.add(new Constructor("Williams", 14200000, 94));
+        allConstructors.add(new Constructor("Haas", 12100000, 108));
+        allConstructors.add(new Constructor("Alpine", 18500000, 121));
+        allConstructors.add(new Constructor("Cadillac", 6400000, 79));
+
 
     }
 }
